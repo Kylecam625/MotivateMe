@@ -1,0 +1,70 @@
+/* Responsive Design Styles */
+
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+  }
+  
+  .connected-player-container {
+    margin: 16px;
+  }
+  
+  .text-display-box {
+    padding: 20px;
+    padding-bottom: 28px;
+    min-height: clamp(280px, 45vh, 520px);
+  }
+  
+  .premium-audio-player {
+    padding: 16px 20px;
+  }
+  
+  .premium-controls-row {
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+  
+  .premium-time-display,
+  .premium-volume-controls {
+    min-width: auto;
+  }
+  
+  .premium-playback-controls {
+    order: -1;
+  }
+  
+  .compact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  
+  .voice-selector {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  
+  .voice-option {
+    padding: 12px;
+  }
+  
+  .voice-header {
+    margin-bottom: 8px;
+  }
+  
+  .voice-description {
+    font-size: 0.875rem;
+    line-height: 1.4;
+  }
+  
+  .volume-controls {
+    margin-left: 0;
+    margin-top: 8px;
+  }
+  
+  .controls {
+    flex-direction: column;
+    gap: 8px;
+  }
+}

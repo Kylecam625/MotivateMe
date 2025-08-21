@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+
+@plugin "tailwindcss-animate";
+
+/* Import modular CSS files */
+@import '../styles/theme.css';
+@import '../styles/animations.css';
+@import '../styles/loading.css';
+@import '../styles/text-display.css';
+@import '../styles/audio-player.css';
+@import '../styles/ui-components.css';
+@import '../styles/responsive.css';
+
+/* All styles have been modularized into separate files in the /styles directory:
+ * - theme.css: Theme variables and base styles
+ * - animations.css: All keyframe animations  
+ * - loading.css: Loading screen animations and styles
+ * - text-display.css: Text display and video box styles
+ * - audio-player.css: Audio player component styles
+ * - ui-components.css: Form and UI component styles
+ * - responsive.css: Mobile responsive styles
+ */
