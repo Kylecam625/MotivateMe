@@ -92,7 +92,7 @@ OPENAI_MODEL=gpt-4o
 
 # ElevenLabs Configuration  
 ELEVENLABS_API_KEY=your_elevenlabs_api_key
-ELEVENLABS_MODEL=eleven_flash_v2_5
+ELEVENLABS_MODEL=eleven_v3
 ELEVENLABS_VOICE_ID=TX3LPaxmHKxFdv7VOQHJ
 
 # Application Configuration
@@ -100,7 +100,7 @@ NEXT_PUBLIC_APP_URL=http://localhost:3000
 ```
 
 ### Model Recommendations
-- **ElevenLabs**: `eleven_flash_v2_5` for fast, high-quality speech
+- **ElevenLabs**: `eleven_v3` for the most expressive and emotional speech
 - **OpenAI**: `gpt-4o` for intelligent text generation
 - **Voice**: Use the provided voice IDs or explore the voice library
 
